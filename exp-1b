@@ -1,0 +1,139 @@
+Program 1: To print "Hello World"
+void main() {
+  print("Hello World");
+}
+
+Output:
+Hello World
+
+🟢 Program 2: To print a name
+void main() {
+  var name = "Priya";
+  print(name);
+}
+
+Output:
+Priya
+
+🟢 Program 3: To concatenate two strings
+void main() {
+  var firstName = "Sai";
+  var lastName = "Priya";
+  print("Full name is $firstName $lastName");
+}
+
+Output:
+Full name is Sai Priya
+
+🟢 Program 4: To print a string using a loop statement
+void main() {
+  for (int i = 0; i < 10; i++) {
+    print("Hello");
+  }
+}
+
+Output:
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Program 5: To perform some arithmetic operations
+void main() {
+  int num1 = 10;
+  int num2 = 3;
+
+  int sum = num1 + num2;
+  int diff = num1 - num2;
+  int mult = num1 * num2;
+  double div = num1 / num2;
+
+  print("The sum is $sum");
+  print("The diff is $diff");
+  print("The mult is $mult");
+  print("The div is $div");
+}
+
+Output:
+The sum is 13
+The diff is 7
+The mult is 30
+The div is 3.3333333333333335
+
+🟢 Program 6: To print using if-else statement
+void main() {
+  var age = 20;
+
+  if (age >= 18) {
+    print("You are a voter.");
+  } else {
+    print("You are not a voter.");
+  }
+}
+
+Output:
+You are a voter.
+
+🟢 Program 7: To print factorial of a number
+void main() {
+  int number = 5;
+  int factorial = 1;
+
+  for (int i = 1; i <= number; i++) {
+    factorial *= i;
+  }
+
+  print("Factorial of $number is $factorial");
+}
+
+Output:
+Factorial of 5 is 120
+
+
+Program 8: To print numbers using do-while loop
+void main() {
+  int i = 1;
+  do {
+    print(i);
+    i++;
+  } while (i <= 5);
+}
+
+Output:
+1
+2
+3
+4
+5
+
+🟢 Program 9: Swapping of two numbers using a temporary variable
+void main() {
+  int a = 10, b = 20, c;
+  c = a;
+  a = b;
+  b = c;
+
+  print("Swapping of two numbers: a = $a, b = $b");
+}
+
+Output:
+Swapping of two numbers: a = 20, b = 10
+
+🟢 Program 10: Swapping of two numbers without using a temporary variable
+void main() {
+  int a = 10, b = 20;
+  b = a + b;
+  a = b - a;
+  b = b - a;
+
+  print("Swapping of two numbers: a = $a, b = $b");
+}
+
+Output:
+Swapping of two numbers: a = 20, b = 10
+
