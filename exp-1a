@@ -42,25 +42,28 @@ Step 4:
 Under User variables, check if there is an entry called Path.
 
 If the entry exists, append the full path to flutter\bin using a separator (;) from existing values.
-
+---------------------------------------------------------------------------------------
 Environment Variable Table
-Variable	Value
-Path	C:\Users\Ashut\AppData\Local\Microsoft\WindowsApps; C:\Users\Ashut...
-Temp	C:\Users\Ashut\AppData\Local\Temp
-
+-----------------------------------------------------------------------------------------
+Variable   	Value
+------------------------------------------------------------------------------------------
+Path    	  C:\Users\Ashut\AppData\Local\Microsoft\WindowsApps; C:\Users\Ashut...
+Temp     	  C:\Users\Ashut\AppData\Local\Temp
+-------------------------------------------------------------------------------------------
 (Buttons: [New] [Edit] [Delete])
-
+-----------------------------------------------------------------------------------------
 On the next screen, click New and add the full path to your flutter\bin directory.
 For this guide, it is given below. Click on both windows to enable running Flutter commands in Windows console.
 
 Example Paths
 Path Type	Example Path
+-----------------------------------------------------------------------------
 %USERPROFILE%	%USERPROFILE%\AppData\Local\Microsoft\WindowsApps
 Installed Path	C:\Users\Ashut\AppData\Local\programs\Microsoft...
 Flutter Bin	C:\Development\flutter\bin
 
 (Buttons: [New] [Edit] [Browse] [Delete])
-
+------------------------------------------------------------------------------
 If the entry doesn’t exist, create a new user variable named Path and set its value to the full path of flutter\bin.
 
 
@@ -97,14 +100,14 @@ Click on "Download Android Studio" button.
 Next, proceed by downloading Android Studio. During the setup, unless you have unique requirements, simply click Next on all screens to keep default settings.
 
 On the Choose Components screen, be sure to select the Android Studio option to enable an Android emulator for your app development needs.
-
+-------------------------------------------------------------------------
 Android Studio Setup
 Select Components to Install
 ☑ Android Studio
 ☑ Android Virtual Device
 
 (Buttons: [Back] [Next] [Cancel])
-
+-----------------------------------------------------------------------------
 Afterward, the Android Studio setup wizard will start, and you can proceed by clicking Next.
 
 On the Install Type screen, select Custom and click Next.
@@ -137,17 +140,20 @@ Then, open Android Studio → Go to Plugins → Search for Flutter → Click Ins
 Plugin Installation Prompt
 
 It will also prompt you to install Dart, a programming language used to create Flutter apps.
+-----------------------------------------------------------------------------------
 Click Install when prompted.
 
 ⚠	The Flutter plugin requires Dart to be installed.
 Buttons: [Install] [Cancel]	
-
+-------------------------------------------------------------------------------------
 Finally, click Restart IDE so that the plugin changes are applied.
 Click Restart at the prompt to confirm this action.
-
+--------------------------------------------------------------------------------------
 Android Studio and Plugin Updates
 ℹ	Restart Android Studio to apply changes in plugins.
 Buttons: [Restart] [Not Now]	
+----------------------------------------------------------------------------------------
+
 Step 8: Verify Setup
 
 After restarting, run the following command in CMD to confirm Android Studio installation:
@@ -178,12 +184,13 @@ Stable Channel:
 Stable channel builds are tested and approved for production use.
 
 Dart SDK Versions Table
-Version	OS	Architecture	Release Date	Downloads
-3.7.2	Windows	X64	Mar 12, 2025	Dart SDK (SHA-256)
-3.7.2	Windows	IA32	Mar 12, 2025	Dart SDK (SHA-256)
-3.7.2	Windows	ARM64	Mar 12, 2025	Dart SDK (SHA-256)
-3.7.2	Windows	–	Mar 12, 2025	All Docs
-
+--------------------------------------------------------------------
+Version   	OS	   Architecture   	  Release Date	   Downloads
+3.7.2   	Windows	   X64             	Mar 12, 2025	  Dart SDK (SHA-256)
+3.7.2   	Windows  	 IA32	            Mar 12, 2025	  Dart SDK (SHA-256)
+3.7.2   	Windows	   ARM64	          Mar 12, 2025	  Dart SDK (SHA-256)
+3.7.2   	Windows	  ...........       Mar 12, 2025	     All Docs
+--------------------------------------------------------------------------
 Click on Dart SDK to download the SDK for Windows 64-bit architecture.
 The download will start and a .zip file will be downloaded.
 
@@ -196,15 +203,15 @@ Step 2: Extract the Downloaded ZIP File
 
 Extract the contents of the downloaded ZIP file.
 After extracting, the contents of the Dart SDK folder will appear as shown below:
-
+------------------------------------------------------------------------------
 Extracted Folder Contents
-Name	Type	Compressed Size	Password	Size Ratio
-bin	File Folder	–	–	–
-include	File Folder	–	–	–
-lib	File Folder	–	–	–
-pkg	File Folder	–	–	–
+Name      	Type	         Compressed   Size  	Password	  Size   Ratio
+bin     	File Folder	
+include	  File Folder	
+lib	      File Folder	
+pkg	      File Folder	
 sdk-package-config.json	File	1 KB	–	–
-
+-----------------------------------------------------------------------------------
 📁 Path:
 Downloads > dart-sdk-windows-x64_release.zip > dart-sdk
 
